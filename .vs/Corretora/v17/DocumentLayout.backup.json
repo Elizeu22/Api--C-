@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\Corretora\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|c:\\c#\\corretora\\controllers\\corretoracadastrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|solutionrelative:controllers\\corretoracadastrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|c:\\c#\\corretora\\model\\corretor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|solutionrelative:model\\corretor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|c:\\c#\\corretora\\model\\corretoracadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|solutionrelative:model\\corretoracadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CorretoraCadastroController.cs",
+              "DocumentMoniker": "C:\\C#\\Corretora\\Controllers\\CorretoraCadastroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CorretoraCadastroController.cs",
+              "ToolTip": "C:\\C#\\Corretora\\Controllers\\CorretoraCadastroController.cs",
+              "RelativeToolTip": "Controllers\\CorretoraCadastroController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T19:19:49.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Corretor.cs",
+              "DocumentMoniker": "C:\\C#\\Corretora\\Model\\Corretor.cs",
+              "RelativeDocumentMoniker": "Model\\Corretor.cs",
+              "ToolTip": "C:\\C#\\Corretora\\Model\\Corretor.cs",
+              "RelativeToolTip": "Model\\Corretor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T15:12:04.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CorretoraCadastro.cs",
+              "DocumentMoniker": "C:\\C#\\Corretora\\Model\\CorretoraCadastro.cs",
+              "RelativeDocumentMoniker": "Model\\CorretoraCadastro.cs",
+              "ToolTip": "C:\\C#\\Corretora\\Model\\CorretoraCadastro.cs",
+              "RelativeToolTip": "Model\\CorretoraCadastro.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T14:40:24.523Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
