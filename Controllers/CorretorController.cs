@@ -5,6 +5,8 @@ using Microsoft.EntityFrameworkCore;
 using EntityState = Microsoft.EntityFrameworkCore.EntityState;
 using System.Linq;
 using Corretora.Autenticacao_JWT;
+using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 
 namespace Corretora.Controllers
@@ -48,10 +50,10 @@ namespace Corretora.Controllers
                 return NotFound();
             }
 
+            var autorizacao = _gerarToken.TokenAutenticacao();
 
-            _gerarToken.TokenAutenticacao();
 
-            return cnpjCorretor;
+            return Ok(new{Token = autorizacao});
         }
 
 

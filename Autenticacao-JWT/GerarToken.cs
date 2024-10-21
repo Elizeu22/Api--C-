@@ -41,7 +41,7 @@ namespace Corretora.Autenticacao_JWT
             var tokenGerado = handler.WriteToken(token);
 
 
-            return tokenGerado;
+            return  tokenGerado;
 
 
 

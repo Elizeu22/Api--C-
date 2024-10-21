@@ -46,7 +46,6 @@ namespace Corretora.Controllers
         }
 
 
-        [Authorize]
         [HttpPost("CorretoraCadastro")]
         public async Task<ActionResult<CorretoraCadastro>>
             PostCorretora(CorretoraCadastro cadastro)

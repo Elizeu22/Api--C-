@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\C#\\Corretora\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|c:\\c#\\corretora\\autenticacao-jwt\\gerartoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|solutionrelative:autenticacao-jwt\\gerartoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|c:\\c#\\corretora\\controllers\\corretorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|solutionrelative:controllers\\corretorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|c:\\c#\\corretora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|c:\\c#\\corretora\\autenticacao-jwt\\gerartoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|solutionrelative:autenticacao-jwt\\gerartoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|c:\\c#\\corretora\\controllers\\corretoracadastrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|solutionrelative:controllers\\corretoracadastrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|c:\\c#\\corretora\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,39 +38,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\C#\\Corretora\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\C#\\Corretora\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T19:42:07.051Z",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\C#\\Corretora\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\C#\\Corretora\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-21T18:06:16.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "CorretoraCadastroController.cs",
+              "DocumentMoniker": "C:\\C#\\Corretora\\Controllers\\CorretoraCadastroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CorretoraCadastroController.cs",
+              "ToolTip": "C:\\C#\\Corretora\\Controllers\\CorretoraCadastroController.cs",
+              "RelativeToolTip": "Controllers\\CorretoraCadastroController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:02:57.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "CorretorController.cs",
               "DocumentMoniker": "C:\\C#\\Corretora\\Controllers\\CorretorController.cs",
               "RelativeDocumentMoniker": "Controllers\\CorretorController.cs",
               "ToolTip": "C:\\C#\\Corretora\\Controllers\\CorretorController.cs",
               "RelativeToolTip": "Controllers\\CorretorController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwDQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T19:26:32.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GerarToken.cs",
               "DocumentMoniker": "C:\\C#\\Corretora\\Autenticacao-JWT\\GerarToken.cs",
               "RelativeDocumentMoniker": "Autenticacao-JWT\\GerarToken.cs",
               "ToolTip": "C:\\C#\\Corretora\\Autenticacao-JWT\\GerarToken.cs",
               "RelativeToolTip": "Autenticacao-JWT\\GerarToken.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T19:13:57.591Z",
               "EditorCaption": ""
