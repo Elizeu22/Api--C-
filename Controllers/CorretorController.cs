@@ -2,9 +2,9 @@
 using Corretora.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
 using EntityState = Microsoft.EntityFrameworkCore.EntityState;
 using System.Linq;
+using Corretora.Autenticacao_JWT;
 
 
 namespace Corretora.Controllers
@@ -12,15 +12,14 @@ namespace Corretora.Controllers
     public class CorretorController : ControllerBase
     {
 
-
-
-
+        private readonly GerarToken _gerarToken;
         private readonly CorretoraContext _contextCorretor;
 
-        public CorretorController(CorretoraContext context)
+        public CorretorController(CorretoraContext context, GerarToken gerarToken)
         {
 
             _contextCorretor = context;
+            _gerarToken = gerarToken;
 
         }
 
@@ -48,6 +47,9 @@ namespace Corretora.Controllers
             {
                 return NotFound();
             }
+
+
+            _gerarToken.TokenAutenticacao();
 
             return cnpjCorretor;
         }

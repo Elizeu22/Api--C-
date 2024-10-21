@@ -105,6 +105,7 @@ C:\C#\Corretora\obj\Debug\net8.0\Corretora.AssemblyInfo.cs
 C:\C#\Corretora\obj\Debug\net8.0\Corretora.csproj.CoreCompileInputs.cache
 C:\C#\Corretora\obj\Debug\net8.0\Corretora.MvcApplicationPartsAssemblyInfo.cs
 C:\C#\Corretora\obj\Debug\net8.0\Corretora.MvcApplicationPartsAssemblyInfo.cache
+C:\C#\Corretora\obj\Debug\net8.0\Corretora.sourcelink.json
 C:\C#\Corretora\obj\Debug\net8.0\staticwebassets.build.json
 C:\C#\Corretora\obj\Debug\net8.0\staticwebassets.development.json
 C:\C#\Corretora\obj\Debug\net8.0\staticwebassets\msbuild.Corretora.Microsoft.AspNetCore.StaticWebAssets.props

@@ -1,5 +1,7 @@
+using Corretora.Autenticacao_JWT;
 using Corretora.DB.CorretoraLista.DB;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -18,20 +20,23 @@ var connectionString = builder.Configuration.GetConnectionString("CorretoraConne
 builder.Services.AddDbContext<CorretoraContext>(opts =>
     opts.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
-//builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(
- //   options =>
- //  {
- //  options.TokenValidationParameters = new TokenValidationParameters
-  /// {
-  //    ValidateIssuer = true,
-   //   ValidateAudience = true,
-    //  ValidateLifetime = true,
-   //    ValidateIssuerSigningKey = true,
-   //     ValidIssuer = builder.Configuration["Jwt:Issuer"],
-  //     ValidAudience = builder.Configuration["Jwt:Issuer"],
-  //     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Issuer"]))
- //   };
- // });
+
+builder.Services.AddScoped<GerarToken>();
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(
+    options =>
+   {
+   options.TokenValidationParameters = new TokenValidationParameters
+   {
+       ValidateIssuer = true,
+       ValidateAudience = true,
+       ValidateLifetime = true,
+       ValidateIssuerSigningKey = true,
+       ValidIssuer = builder.Configuration["Jwt:Issuer"],
+       ValidAudience = builder.Configuration["Jwt:Issuer"],
+       IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+    };
+  });
 
 var app = builder.Build();
 
@@ -45,6 +50,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseAuthentication();
 
 app.MapControllers();
 

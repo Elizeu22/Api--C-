@@ -1,5 +1,6 @@
 ﻿using Corretora.DB.CorretoraLista.DB;
 using Corretora.Model;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using EntityState = Microsoft.EntityFrameworkCore.EntityState;
@@ -19,7 +20,7 @@ namespace Corretora.Controllers
         }
 
 
-
+        [Authorize]
         [HttpGet("CorretoraCadastro")]
         public async Task<ActionResult<IEnumerable<CorretoraCadastro>>>
             GetTodos()
@@ -29,7 +30,7 @@ namespace Corretora.Controllers
 
         }
 
-
+        [Authorize]
         [HttpGet("cnpj")]
         public async Task<ActionResult<CorretoraCadastro>>
            GetCorretora(string cnpj)
@@ -45,7 +46,7 @@ namespace Corretora.Controllers
         }
 
 
-
+        [Authorize]
         [HttpPost("CorretoraCadastro")]
         public async Task<ActionResult<CorretoraCadastro>>
             PostCorretora(CorretoraCadastro cadastro)
@@ -56,7 +57,7 @@ namespace Corretora.Controllers
             return CreatedAtAction(nameof(GetCorretora), new { cnpj = cadastro.cnpj }, cadastro);
         }
 
-
+        [Authorize]
         [HttpPut("cnpj")]
         public async Task<IActionResult>
             PutCorretora(string cnpj, CorretoraCadastro atualizaCorretora)
@@ -74,7 +75,7 @@ namespace Corretora.Controllers
 
 
 
-
+        [Authorize]
         [HttpDelete("cnpj")]
         public async Task<ActionResult<CorretoraCadastro>>
          DeleteCorretora(string cnpj)

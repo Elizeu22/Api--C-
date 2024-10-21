@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\C#\\Corretora\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|c:\\c#\\corretora\\controllers\\corretoracadastrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|solutionrelative:controllers\\corretoracadastrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|c:\\c#\\corretora\\autenticacao-jwt\\gerartoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|solutionrelative:autenticacao-jwt\\gerartoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|c:\\c#\\corretora\\model\\corretor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|solutionrelative:model\\corretor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|c:\\c#\\corretora\\controllers\\corretorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|solutionrelative:controllers\\corretorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|c:\\c#\\corretora\\model\\corretoracadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|solutionrelative:model\\corretoracadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|c:\\c#\\corretora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07E8865A-3228-44F6-B3A4-423B88D9D79C}|Corretora.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +22,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CorretoraCadastroController.cs",
-              "DocumentMoniker": "C:\\C#\\Corretora\\Controllers\\CorretoraCadastroController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CorretoraCadastroController.cs",
-              "ToolTip": "C:\\C#\\Corretora\\Controllers\\CorretoraCadastroController.cs",
-              "RelativeToolTip": "Controllers\\CorretoraCadastroController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\\Corretora\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\C#\\Corretora\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T19:19:49.644Z",
+              "WhenOpened": "2024-10-18T19:42:07.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Corretor.cs",
-              "DocumentMoniker": "C:\\C#\\Corretora\\Model\\Corretor.cs",
-              "RelativeDocumentMoniker": "Model\\Corretor.cs",
-              "ToolTip": "C:\\C#\\Corretora\\Model\\Corretor.cs",
-              "RelativeToolTip": "Model\\Corretor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Title": "CorretorController.cs",
+              "DocumentMoniker": "C:\\C#\\Corretora\\Controllers\\CorretorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CorretorController.cs",
+              "ToolTip": "C:\\C#\\Corretora\\Controllers\\CorretorController.cs",
+              "RelativeToolTip": "Controllers\\CorretorController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T15:12:04.471Z"
+              "WhenOpened": "2024-10-18T19:26:32.248Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CorretoraCadastro.cs",
-              "DocumentMoniker": "C:\\C#\\Corretora\\Model\\CorretoraCadastro.cs",
-              "RelativeDocumentMoniker": "Model\\CorretoraCadastro.cs",
-              "ToolTip": "C:\\C#\\Corretora\\Model\\CorretoraCadastro.cs",
-              "RelativeToolTip": "Model\\CorretoraCadastro.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "GerarToken.cs",
+              "DocumentMoniker": "C:\\C#\\Corretora\\Autenticacao-JWT\\GerarToken.cs",
+              "RelativeDocumentMoniker": "Autenticacao-JWT\\GerarToken.cs",
+              "ToolTip": "C:\\C#\\Corretora\\Autenticacao-JWT\\GerarToken.cs",
+              "RelativeToolTip": "Autenticacao-JWT\\GerarToken.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:40:24.523Z"
+              "WhenOpened": "2024-10-18T19:13:57.591Z",
+              "EditorCaption": ""
             }
           ]
         }
