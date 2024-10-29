@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using EntityState = Microsoft.EntityFrameworkCore.EntityState;
+using Corretora.Controllers;
 
 namespace Corretora.Controllers
 {
@@ -20,7 +21,7 @@ namespace Corretora.Controllers
         }
 
 
-        [Authorize]
+      
         [HttpGet("CorretoraCadastro")]
         public async Task<ActionResult<IEnumerable<CorretoraCadastro>>>
             GetTodos()
@@ -32,6 +33,7 @@ namespace Corretora.Controllers
 
         [Authorize]
         [HttpGet("cnpj")]
+      
         public async Task<ActionResult<CorretoraCadastro>>
            GetCorretora(string cnpj)
         {
